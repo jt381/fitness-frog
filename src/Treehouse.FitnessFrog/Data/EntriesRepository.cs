@@ -1,18 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using Treehouse.FitnessFrog.Data;
 using Treehouse.FitnessFrog.Models;
 
-namespace Treehouse.FitnessFrog.Data
-{
-    /// <summary>
-    /// The repository for entries.
-    /// 
-    /// Note: The code in this class is not to be considered a "best practice" 
-    /// example of how to do data persistence, but rather as workaround for
-    /// not having a database to persist data to.
-    /// </summary>
-    public class EntriesRepository
+public class EntriesRepository
     {
         /// <summary>
         /// Returns a collection of entries.
@@ -109,4 +101,3 @@ namespace Treehouse.FitnessFrog.Data
             Data.Entries.RemoveAt(entryIndex);
         }
     }
-}
